@@ -3,8 +3,10 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, ArrowRight } from "lucide-react";
 
-const projects = [
- {
+const projects = [{
+
+
+
   title: "Skate Z - Skateboard Website",
   category: "Website",
   problem: "Local skateboard brand needed an online presence to showcase products and build credibility",
@@ -12,7 +14,7 @@ const projects = [
   outcome: "Created a clean, modern website that highlights products and brand identity",
   color: "from-primary to-secondary",
   link: "https://www.behance.net/gallery/244100497/SKATE-Z?platform=direct"
-},
+     },
 
 
   {
@@ -33,6 +35,10 @@ const projects = [
   color: "from-primary to-teal-accent",
   link: "https://cryztalzone.shop/?srsltid=AfmBOoodPg2EMtBO9lLH-QqpbeLU9P0jsa38soDAB32VacNpWiYZOD2s"
 },
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7c190caa7c87a2a4acd0cca74831d62f7a75ef1
 ];
 
 const Projects = () => {
