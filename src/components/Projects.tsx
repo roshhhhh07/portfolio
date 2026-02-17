@@ -119,9 +119,9 @@ const Projects = () => {
 
                   {project.link && (
   <a
-    href={"https://www.behance.net/gallery/244100497/SKATE-Z"}
+    href={project.link}
     target="_blank"
-    rel="noopener noreferrer" 
+    rel="noopener noreferrer"
     className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary group-hover:text-secondary transition-colors"
   >
     View Case Study
