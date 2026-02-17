@@ -117,10 +117,18 @@ const Projects = () => {
                     </div>
                   </div>
 
-                  <button className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary group-hover:text-secondary transition-colors">
-                    View Case Study
-                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </button>
+                  {project.link && (
+  <a
+    href={"https://www.behance.net/gallery/244100497/SKATE-Z"}
+    target="_blank"
+    rel="noopener noreferrer" 
+    className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-primary group-hover:text-secondary transition-colors"
+  >
+    View Case Study
+    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+  </a>
+)}
+
                 </div>
               </motion.div>
             ))}
