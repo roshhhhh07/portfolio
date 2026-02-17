@@ -34,12 +34,9 @@ const projects = [{
   outcome: "Designed a clean and intuitive platform that makes discovering and buying discounted games easier",
   color: "from-primary to-teal-accent",
   link: "https://cryztalzone.shop/?srsltid=AfmBOoodPg2EMtBO9lLH-QqpbeLU9P0jsa38soDAB32VacNpWiYZOD2s"
-},
-<<<<<<< HEAD
-=======
+   },
 
->>>>>>> d7c190caa7c87a2a4acd0cca74831d62f7a75ef1
-];
+ ];
 
 const Projects = () => {
   const ref = useRef(null);
