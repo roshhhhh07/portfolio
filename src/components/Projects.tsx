@@ -13,7 +13,7 @@ const projects = [{
   process: "UI/UX design, layout planning, responsive design, and website development",
   outcome: "Created a clean, modern website that highlights products and brand identity",
   color: "from-primary to-secondary",
-  link: "https://www.behance.net/gallery/244100497/SKATE-Z?platform=direct"
+  link: "https://www.behance.net/gallery/244100497/SKATE-Z"
      },
 
 
