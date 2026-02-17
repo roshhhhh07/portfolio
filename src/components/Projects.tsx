@@ -4,14 +4,16 @@ import { useRef } from "react";
 import { ExternalLink, ArrowRight } from "lucide-react";
 
 const projects = [
-  {
-    title: "E-Commerce App Redesign",
-    category: "Mobile App",
-    problem: "Users struggled with navigation and abandoned carts due to complex checkout flow",
-    process: "User research, competitive analysis, wireframing, prototyping, usability testing",
-    outcome: "Reduced cart abandonment by 35% through simplified checkout experience",
-    color: "from-primary to-secondary",
-  },
+{
+  title: "Skate Z - Skateboard Website",
+  category: "Website",
+  problem: "Local skateboard brand needed an online presence to showcase products and build credibility",
+  process: "UI/UX design, layout planning, responsive design, and website development",
+  outcome: "Created a clean, modern website that highlights products and brand identity",
+  color: "from-primary to-secondary",
+  link: https://www.behance.net/gallery/244100497/SKATE-Z?platform=direct
+},
+
   {
     title: "Healthcare Dashboard",
     category: "Web Application",
@@ -20,22 +22,17 @@ const projects = [
     outcome: "Improved task completion time by 40% with intuitive data visualization",
     color: "from-secondary to-teal-accent",
   },
-  {
-    title: "Food Delivery Platform",
-    category: "Mobile App",
-    problem: "Low user retention due to poor onboarding and confusing menu navigation",
-    process: "User journey mapping, A/B testing, micro-interaction design, performance optimization",
-    outcome: "Increased user retention by 28% within first month of launch",
-    color: "from-teal-accent to-primary",
-  },
-  {
-    title: "Banking Website Redesign",
-    category: "Website",
-    problem: "Legacy interface causing high support call volume and user frustration",
-    process: "Heuristic evaluation, card sorting, responsive design, WCAG compliance",
-    outcome: "Reduced support inquiries by 50% through self-service improvement",
-    color: "from-primary to-teal-accent",
-  },
+ 
+ {
+  title: "Cryztal Zone - Online Game Store Platform",
+  category: "Website",
+  problem: "Gamers look for affordable game purchasing options and a trustworthy platform with smooth browsing experience",
+  process: "UI/UX design, user flow design, wireframing, prototyping, responsive layout",
+  outcome: "Designed a clean and intuitive platform that makes discovering and buying discounted games easier",
+  color: "from-primary to-teal-accent",
+  link: "https://cryztalzone.shop/?srsltid=AfmBOoodPg2EMtBO9lLH-QqpbeLU9P0jsa38soDAB32VacNpWiYZOD2s"
+},
+
 ];
 
 const Projects = () => {
