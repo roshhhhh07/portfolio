@@ -18,12 +18,13 @@ const projects = [{
 
 
   {
-    title: "Healthcare Dashboard",
-    category: "Web Application",
-    problem: "Medical professionals needed quick access to patient data without information overload",
-    process: "Stakeholder interviews, information architecture, iterative design, accessibility audit",
-    outcome: "Improved task completion time by 40% with intuitive data visualization",
-    color: "from-secondary to-teal-accent",
+  title: "Quotes App",
+  category: "Applicationn",
+  problem: "Users often struggle to find meaningful and relatable quotes quickly due to cluttered interfaces and poor categorization",
+  process: "User research, competitor analysis, wireframing, visual design, and usability testing",
+  outcome: "Created a clean and engaging interface that improves quote discovery and enhances user retention",
+  color: "from-purple-500 to-pink-500",
+  link: "https://www.figma.com/design/1QBvMCVvw83sihjuFXoMc7/Untitled?node-id=24-4112"
   },
  
  {
