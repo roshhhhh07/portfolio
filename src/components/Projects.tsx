@@ -19,7 +19,7 @@ const projects = [{
 
   {
   title: "Quotes App",
-  category: "Applicationn",
+  category: "Application",
   problem: "Users often struggle to find meaningful and relatable quotes quickly due to cluttered interfaces and poor categorization",
   process: "User research, competitor analysis, wireframing, visual design, and usability testing",
   outcome: "Created a clean and engaging interface that improves quote discovery and enhances user retention",
